@@ -12,6 +12,7 @@
        height: 95%;
        object-fit: cover;
        margin-bottom: 5px;
+       transition: opacity 0.3s ;
     }
 
     button{
@@ -20,11 +21,19 @@
         position:absolute;
         top:255px;
         display: none;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        
     }
 
     &:hover{
         img{
             opacity: 0.8;
         }
+    }
+
+    button{
+        display: block;
     }
 }
